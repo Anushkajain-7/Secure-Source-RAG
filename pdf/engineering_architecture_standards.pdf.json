@@ -1,0 +1,14 @@
+{
+  "title": "Engineering Architecture Standards",
+  "department": "engineering",
+  "access_level": "restricted",
+  "allowed_roles": [
+    "Software Engineer",
+    "Administrator"
+  ],
+  "allowed_users": [],
+  "version": 1,
+  "is_current_version": true,
+  "source_trust_level": "official",
+  "description": "Standard architecture and framework guidelines for backend engineering."
+}

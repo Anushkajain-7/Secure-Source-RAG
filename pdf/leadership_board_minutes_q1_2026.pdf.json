@@ -1,0 +1,13 @@
+{
+  "title": "Board of Directors Minutes - Q1 2026",
+  "department": "leadership",
+  "access_level": "confidential",
+  "allowed_roles": [
+    "Administrator"
+  ],
+  "allowed_users": [],
+  "version": 1,
+  "is_current_version": true,
+  "source_trust_level": "official",
+  "description": "Minutes of the Board of Directors Q1 meeting. Contains sensitive M&A and strategic decisions."
+}
