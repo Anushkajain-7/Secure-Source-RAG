@@ -1,0 +1,14 @@
+{
+  "title": "Finance Tax Brackets",
+  "department": "finance",
+  "access_level": "restricted",
+  "allowed_roles": [
+    "Finance Analyst",
+    "Administrator"
+  ],
+  "allowed_users": [],
+  "version": 1,
+  "is_current_version": true,
+  "source_trust_level": "official",
+  "description": "Multi-sheet financial tax rates for Federal income brackets and State surtaxes."
+}

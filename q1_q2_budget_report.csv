@@ -1,0 +1,16 @@
+Department,Category,Q1_Budget_INR,Q1_Actual_INR,Q2_Budget_INR,Q2_Actual_INR,Variance_Pct,Status,Approved_By,Notes
+Engineering,Cloud Infrastructure,4500000,4200000,5000000,4800000,-4.0,Under Budget,CFO,AWS and GCP costs
+Engineering,Software Licenses,1200000,1150000,1300000,1280000,-1.5,Under Budget,VP Engineering,JetBrains and GitHub
+Engineering,Hardware,2000000,2100000,1500000,1450000,-3.3,Under Budget,VP Engineering,Laptop refreshes
+Marketing,Digital Advertising,3500000,3800000,4000000,4200000,5.0,Over Budget,CMO,Google Ads and LinkedIn
+Marketing,Events and Conferences,1500000,1200000,2000000,1800000,-10.0,Under Budget,CMO,Tech conferences
+Marketing,Content Production,800000,750000,900000,850000,-5.6,Under Budget,CMO,Blog and video content
+HR,Recruitment,2000000,2200000,2500000,2400000,-4.0,Under Budget,CHRO,Agency fees and job boards
+HR,Training and Development,1000000,950000,1200000,1100000,-8.3,Under Budget,CHRO,Employee training programs
+Finance,Audit and Compliance,500000,480000,600000,590000,-1.7,Under Budget,CFO,External audit fees
+Finance,Insurance,800000,800000,800000,800000,0.0,On Budget,CFO,Company insurance premiums
+Operations,Office Maintenance,1500000,1400000,1500000,1450000,-3.3,Under Budget,COO,Facility management
+Operations,Utilities,600000,650000,700000,720000,2.9,Over Budget,COO,Electricity and internet
+Sales,Sales Team Compensation,5000000,5100000,5500000,5400000,-1.8,Under Budget,VP Sales,Base plus commission
+Sales,Travel Expenses,1200000,1350000,1500000,1600000,6.7,Over Budget,VP Sales,Client visits and demos
+R&D,Research Projects,3000000,2800000,3500000,3200000,-8.6,Under Budget,CTO,AI/ML research initiatives

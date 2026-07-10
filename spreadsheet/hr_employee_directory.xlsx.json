@@ -1,0 +1,11 @@
+{
+  "title": "Hr Employee Directory",
+  "department": "hr",
+  "access_level": "public",
+  "allowed_roles": [],
+  "allowed_users": [],
+  "version": 1,
+  "is_current_version": true,
+  "source_trust_level": "official",
+  "description": "BigCorp global employee directories split across Active and Alumni sheets."
+}

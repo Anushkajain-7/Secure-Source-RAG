@@ -1,0 +1,13 @@
+{
+  "title": "Leadership Board Voting Shares",
+  "department": "leadership",
+  "access_level": "confidential",
+  "allowed_roles": [
+    "Administrator"
+  ],
+  "allowed_users": [],
+  "version": 1,
+  "is_current_version": true,
+  "source_trust_level": "official",
+  "description": "Multi-sheet board shares ledger mapping common and preferred stock distributions."
+}

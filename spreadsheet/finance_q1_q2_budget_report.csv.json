@@ -1,0 +1,14 @@
+{
+  "title": "Finance Q1 Q2 Budget Report",
+  "department": "finance",
+  "access_level": "restricted",
+  "allowed_roles": [
+    "Finance Analyst",
+    "Administrator"
+  ],
+  "allowed_users": [],
+  "version": 1,
+  "is_current_version": true,
+  "source_trust_level": "official",
+  "description": "Finance budget report showing Q1 and Q2 allocations and spending."
+}

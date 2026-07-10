@@ -1,0 +1,14 @@
+{
+  "title": "Hr Salary Bands",
+  "department": "hr",
+  "access_level": "restricted",
+  "allowed_roles": [
+    "HR Manager",
+    "Administrator"
+  ],
+  "allowed_users": [],
+  "version": 1,
+  "is_current_version": true,
+  "source_trust_level": "official",
+  "description": "HR grade level salary scales and standard equity allocations."
+}

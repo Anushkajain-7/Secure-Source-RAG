@@ -1,0 +1,14 @@
+{
+  "title": "Engineering Service Latencies",
+  "department": "engineering",
+  "access_level": "department",
+  "allowed_roles": [
+    "Software Engineer",
+    "Administrator"
+  ],
+  "allowed_users": [],
+  "version": 1,
+  "is_current_version": true,
+  "source_trust_level": "official",
+  "description": "Core platform service operational latencies and error rates."
+}

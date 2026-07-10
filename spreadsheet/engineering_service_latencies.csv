@@ -1,0 +1,5 @@
+Service Name,Average Latency (ms),P99 Latency (ms),Error Rate (%),Owner
+Payment Checkout Service,35.2,98.5,0.02,Payments Platform Team
+User Profile Service,12.5,45.0,0.01,Identity Core Team
+Vector Search Indexer,120.4,350.2,0.15,Search & AI Team
+Audit Logger API,8.2,22.5,0.00,Security Engineering
