@@ -1,0 +1,14 @@
+{
+  "title": "US Patent Application Draft - AI Data Retrieval",
+  "department": "engineering",
+  "access_level": "department",
+  "allowed_roles": [
+    "Software Engineer",
+    "Administrator"
+  ],
+  "allowed_users": [],
+  "version": 1,
+  "is_current_version": true,
+  "source_trust_level": "official",
+  "description": "Scanned patent application draft for permission-aware RAG vector search."
+}
