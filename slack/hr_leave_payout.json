@@ -1,0 +1,31 @@
+{
+  "channel": "hr-queries",
+  "messages": [
+    {
+      "id": "msg-slack-101",
+      "author": "Meera Kapoor",
+      "text": "Quick question on leave payout: if an employee resigns, do we pay out unused carried-over leave days?",
+      "timestamp": "2026-05-10T14:20:00Z",
+      "replies": [
+        {
+          "id": "msg-slack-102",
+          "author": "Sarah Jenkins",
+          "text": "Yes, Meera. We pay out all accumulated standard leave and up to 5 days of carried-over leave at their current base rate.",
+          "timestamp": "2026-05-10T14:25:00Z"
+        },
+        {
+          "id": "msg-slack-103",
+          "author": "Meera Kapoor",
+          "text": "Got it. So if they carried over 5 days under the v2 policy, that gets added. If they have v1 carry-over (10 days), do we honor it?",
+          "timestamp": "2026-05-10T14:28:00Z"
+        },
+        {
+          "id": "msg-slack-104",
+          "author": "Sarah Jenkins",
+          "text": "No, v1 is fully superseded. Only up to 5 days of carry-over are legally honored for payout under the current v2 contract rules.",
+          "timestamp": "2026-05-10T14:32:00Z"
+        }
+      ]
+    }
+  ]
+}

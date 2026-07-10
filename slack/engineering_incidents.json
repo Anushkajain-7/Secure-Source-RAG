@@ -1,0 +1,77 @@
+{
+    "channel": "engineering-incidents",
+    "messages": [
+        {
+            "id": "msg-inc-001",
+            "author": "Vikram Patel",
+            "text": "🚨 INCIDENT: Payment service is returning 500 errors for approximately 30% of transactions. Severity: P1. I'm declaring an incident and starting the investigation.",
+            "timestamp": "2025-06-10T14:30:00Z",
+            "thread_ts": null,
+            "replies": [
+                {
+                    "id": "msg-inc-002",
+                    "author": "Anushka Jain",
+                    "text": "Looking into this now. I can see increased error rates starting at 14:15 UTC. The errors seem to be coming from the payment gateway integration layer.",
+                    "timestamp": "2025-06-10T14:35:00Z"
+                },
+                {
+                    "id": "msg-inc-003",
+                    "author": "Deepa Krishnan",
+                    "text": "Infrastructure side looks stable. CPU and memory are within normal ranges. Network latency is fine. This looks like an application-level issue.",
+                    "timestamp": "2025-06-10T14:40:00Z"
+                },
+                {
+                    "id": "msg-inc-004",
+                    "author": "Anushka Jain",
+                    "text": "Found the root cause! A database migration deployed at 14:10 UTC added a new NOT NULL column to the transactions table without a default value. Existing payment flows that don't populate this field are failing with constraint violations.",
+                    "timestamp": "2025-06-10T15:05:00Z"
+                },
+                {
+                    "id": "msg-inc-005",
+                    "author": "Vikram Patel",
+                    "text": "Good catch. Can we add a default value to fix this immediately?",
+                    "timestamp": "2025-06-10T15:10:00Z"
+                },
+                {
+                    "id": "msg-inc-006",
+                    "author": "Anushka Jain",
+                    "text": "Yes, deploying a hotfix now to ALTER the column and add DEFAULT 'standard'. Will also add a backfill for existing null rows.",
+                    "timestamp": "2025-06-10T15:15:00Z"
+                },
+                {
+                    "id": "msg-inc-007",
+                    "author": "Anushka Jain",
+                    "text": "Hotfix deployed. Error rates dropping. Back to normal levels as of 15:25 UTC. Total incident duration: ~70 minutes. Will write up a postmortem.",
+                    "timestamp": "2025-06-10T15:30:00Z"
+                },
+                {
+                    "id": "msg-inc-008",
+                    "author": "Vikram Patel",
+                    "text": "Great work team. Marking this as resolved. Postmortem review scheduled for Thursday. Action item: we need to add migration safety checks to our CI pipeline.",
+                    "timestamp": "2025-06-10T15:35:00Z"
+                }
+            ]
+        },
+        {
+            "id": "msg-inc-010",
+            "author": "Priya Menon",
+            "text": "FYI: Dashboard service latency has increased by 200ms after the latest deployment. Not a P1 but worth investigating.",
+            "timestamp": "2025-06-11T09:00:00Z",
+            "thread_ts": null,
+            "replies": [
+                {
+                    "id": "msg-inc-011",
+                    "author": "Arjun Nair",
+                    "text": "I think this is related to the new analytics query we added. It's doing a full table scan instead of using the index. I'll optimize the query.",
+                    "timestamp": "2025-06-11T09:30:00Z"
+                },
+                {
+                    "id": "msg-inc-012",
+                    "author": "Priya Menon",
+                    "text": "Thanks Arjun. Please also check if the caching layer is working correctly for dashboard data.",
+                    "timestamp": "2025-06-11T09:45:00Z"
+                }
+            ]
+        }
+    ]
+}

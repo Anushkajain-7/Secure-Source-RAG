@@ -1,0 +1,14 @@
+{
+  "title": "Slack Thread: #engineering-incidents",
+  "department": "engineering",
+  "access_level": "department",
+  "allowed_roles": [
+    "Software Engineer",
+    "Administrator"
+  ],
+  "allowed_users": [],
+  "version": 1,
+  "is_current_version": true,
+  "source_trust_level": "informal",
+  "description": "Slack incident thread detailing OOM issue on PCS Redis cluster and resolution."
+}

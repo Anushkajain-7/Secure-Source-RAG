@@ -1,0 +1,31 @@
+{
+  "channel": "engineering-incidents",
+  "messages": [
+    {
+      "id": "msg-slack-001",
+      "author": "Anushka Jain",
+      "text": "PCS is throwing 500s on checkout. Anyone else seeing this? PagerDuty just woke me up.",
+      "timestamp": "2026-06-15T03:45:00Z",
+      "replies": [
+        {
+          "id": "msg-slack-002",
+          "author": "Aarav Sharma",
+          "text": "Yeah, payments checkout service is failing. Looks like Redis is OOM and rejecting connection requests.",
+          "timestamp": "2026-06-15T03:48:00Z"
+        },
+        {
+          "id": "msg-slack-003",
+          "author": "Anushka Jain",
+          "text": "Aarav, good catch. I am going to purge the transient cart keys and restart the Redis cache cluster.",
+          "timestamp": "2026-06-15T03:52:00Z"
+        },
+        {
+          "id": "msg-slack-004",
+          "author": "Aarav Sharma",
+          "text": "Confirming the restart resolved the OOM. PCS checkout latency is back down to 35ms. Incident closed.",
+          "timestamp": "2026-06-15T04:10:00Z"
+        }
+      ]
+    }
+  ]
+}

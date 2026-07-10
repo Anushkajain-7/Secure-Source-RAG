@@ -1,0 +1,19 @@
+{
+  "channel": "general-questions-10",
+  "messages": [
+    {
+      "id": "msg-gen-10",
+      "author": "Aarav Sharma",
+      "text": "What time does the third-floor cafeteria open in morning for breakfast?",
+      "timestamp": "2026-07-01T08:30:00Z",
+      "replies": [
+        {
+          "id": "msg-gen-reply-10",
+          "author": "Sarah Jenkins",
+          "text": "It opens at 8:00 AM and serves breakfast until 10:30 AM.",
+          "timestamp": "2026-07-01T08:35:00Z"
+        }
+      ]
+    }
+  ]
+}
